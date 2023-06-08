@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+
 }
+
+.footer {
+background-color: pink;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.header {
+  background-color: pink;
+}
+
+.error {
+  text-align: center;
+  background-color: red;
+}
+
+
+.cartman {
+  background-image: url("https://www.geeksucks.com/wp-content/uploads/1513.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
