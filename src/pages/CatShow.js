@@ -1,11 +1,11 @@
 import React from "react"
 
 const CatShow = () => {
-    return(
+  return(
     <>
-    <h3>This is the show page</h3>
+      <h3>This is the show page</h3>
     </>
-    )}
+)}
 
 
 

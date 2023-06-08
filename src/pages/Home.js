@@ -1,11 +1,11 @@
 import React from "react"
 
 const Home = () => {
-    return(
+  return(
     <>
-    <h3> This page is the home</h3>
+      <h3> This page is the home</h3>
     </>
-    )}
+)}
 
 
 

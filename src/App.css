@@ -45,3 +45,26 @@ background-color: pink;
   width: 100%;
   height: 2.5rem;
 }
+
+.header {
+  background-color: pink;
+}
+
+.error {
+  text-align: center;
+  background-color: red;
+}
+
+
+.cartman {
+  background-image: url("https://www.geeksucks.com/wp-content/uploads/1513.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+

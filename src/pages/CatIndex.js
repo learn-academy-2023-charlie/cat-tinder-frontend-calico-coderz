@@ -1,12 +1,11 @@
 import React from "react"
 
-
 const CatIndex = () => {
-    return(
+  return(
     <>
-    <h3>This is the cat index</h3>
+      <h3>This is the cat index</h3>
     </>
-    )}
+)}
 
 
 

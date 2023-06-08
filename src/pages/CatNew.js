@@ -1,11 +1,11 @@
 import React from "react"
 
 const CatNew = () => {
-    return(
+  return(
     <>
-    <h3>This is the create page</h3>
+      <h3>This is the create page</h3>
     </>
-    )}
+)}
 
 
 

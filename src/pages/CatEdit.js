@@ -1,11 +1,11 @@
 import React from "react"
 
 const CatEdit = () => {
-    return(
+  return(
     <>
-    <h3>This is the edit page</h3>
+      <h3>This is the edit page</h3>
     </>
-    )}
+)}
 
 
 
