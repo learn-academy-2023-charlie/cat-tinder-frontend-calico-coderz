@@ -68,3 +68,12 @@ background-color: pink;
 
 }
 
+.card {
+  margin: 2rem 0;
+}
+
+.cat-index-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
