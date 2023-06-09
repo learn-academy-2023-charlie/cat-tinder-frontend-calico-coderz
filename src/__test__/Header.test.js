@@ -12,15 +12,7 @@ describe("<Header />", () => {
       div
     )
   })
-  it("renders a src and alt", () => {
-    const div = document.createElement("div")
-    render(
-      <BrowserRouter>
-        <Header />
-      </BrowserRouter>,
-        div
-    )
-  })
+
   it("renders with text", () => {
     const div = document.createElement("div")
     render (

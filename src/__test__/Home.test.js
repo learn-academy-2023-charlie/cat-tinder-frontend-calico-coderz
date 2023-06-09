@@ -12,15 +12,6 @@ describe("<Home />", () => {
       div
     )
   })
-  it("renders a src and alt", () => {
-    const div = document.createElement("div")
-    render(
-      <BrowserRouter>
-        <Home />
-      </BrowserRouter>,
-        div
-    )
-  })
   it("renders with text", () => {
     const div = document.createElement("div")
     render (

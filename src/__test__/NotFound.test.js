@@ -13,15 +13,6 @@ describe("<NotFound />", () => {
     )
 
   })
-  it("renders a src and alt", () => {
-    const div = document.createElement("div")
-    render(
-      <BrowserRouter>
-        <NotFound />
-      </BrowserRouter>,
-        div
-    )
-  })
   it("renders with text", () => {
     const div = document.createElement("div")
     render (

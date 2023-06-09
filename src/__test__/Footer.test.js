@@ -12,15 +12,6 @@ describe("<Footer />", () => {
       div
     )
   })
-  it("renders a src and alt", () => {
-    const div = document.createElement("div")
-    render(
-      <BrowserRouter>
-        <Footer />
-      </BrowserRouter>,
-        div
-    )
-  })
   it("renders with text", () => {
     const div = document.createElement("div")
     render (
