@@ -2,7 +2,7 @@ import React from "react"
 import { NavLink } from "react-router-dom"
 import { Card, CardBody, CardTitle, CardSubtitle, Button } from "reactstrap"
 
-const CatIndex = ({cats}) => {
+const CatIndex = ({ cats }) => {
   return(
     <main className="cat-index-cards">
       {cats.map((cat, index) => {

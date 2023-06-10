@@ -10,11 +10,8 @@ describe("<CatIndex />", () => {
       <CatIndex cats={mockCats}/>
     </BrowserRouter>
    )
-   screen.logTestingPlaygroundURL()
-   mockCats.forEach((cat) => {
-    const allCats = screen.getAllByAltText(/image of /i)
-    screen.debug(allCats[0]) 
-    expect (allCats[0]).toBeInTheDocument()
+   screen.getByRole('heading', {
+    name: /charlie/i
+  })
    })
   })
-})
