@@ -1,11 +1,40 @@
 import React from "react"
+import { useParams } from "react-router-dom"
+import { Card, CardBody, CardTitle, CardSubtitle, Button } from "reactstrap"
 
-const CatShow = () => {
-  return(
-    <>
-      <h3>This is the show page</h3>
-    </>
-)}
+
+const CatShow = ({cats}) => {
+  const {id} = useParams()
+  let currentCat = cats.find((cat) => cat.id === +id)
+    return (
+      <main className="card">
+        {currentCat && (
+          <Card
+            style={{
+            width: '18rem'
+          }}>
+              <CardBody>
+                <CardTitle tag="h5">
+                  {currentCat.name}
+                </CardTitle>
+                <CardSubtitle
+                  className="mb-2 text-muted"
+                  tag="h6">
+                  age: {currentCat.age}
+                </CardSubtitle>
+              </CardBody> 
+              <img
+                alt={'image of ${currentCat.name}'}
+                src={currentCat.image}
+               width="100%"
+               />
+             <CardBody>
+              {currentCat.hobbies}
+              </CardBody> 
+           </Card>
+         )}
+        </main> 
+       )}
 
 
 
