@@ -25,6 +25,11 @@ const CatIndex = ({ cats }) => {
       tag="h6">
       age: {cat.age}
     </CardSubtitle>
+    <CardSubtitle
+      className="mb-2 text-muted"
+      tag="h6">
+      hobbies: {cat.hobbies}
+    </CardSubtitle>
     <NavLink to={`/catshow/${cat.id}`} className="nav-link">
       Click to see more details
     </NavLink>

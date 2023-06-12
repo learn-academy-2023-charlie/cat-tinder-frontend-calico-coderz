@@ -10,7 +10,7 @@ describe("<CatNew />", () => {
         <CatNew />
       </BrowserRouter>
     )
-      screen.logTestingPlaygroundURL()
+
 
   })
   it("renders the cat new page", () => {
